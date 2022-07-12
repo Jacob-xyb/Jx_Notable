@@ -1,11 +1,11 @@
 ---
 tags: [Python, Python 标准库]
-title: os
+title: Python os
 created: '2022-07-07T14:19:01.441Z'
-modified: '2022-07-07T14:46:46.432Z'
+modified: '2022-07-12T12:23:12.293Z'
 ---
 
-# os
+# Python os
 
 ## os.
 
