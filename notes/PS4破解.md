@@ -1,9 +1,9 @@
 ---
 attachments: [Clipboard_2022-07-14-19-27-03.png]
-tags: [PS4游戏下载]
+tags: [游戏下载-PS4]
 title: PS4破解
 created: '2022-07-14T11:20:09.991Z'
-modified: '2022-07-14T11:32:00.747Z'
+modified: '2022-07-23T10:48:48.818Z'
 ---
 
 # PS4破解

@@ -1,8 +1,8 @@
 ---
-tags: [PS4游戏下载]
+tags: [游戏下载-PS4]
 title: NBA2k
 created: '2022-07-14T11:46:45.631Z'
-modified: '2022-07-14T11:47:11.349Z'
+modified: '2022-07-23T10:48:48.809Z'
 ---
 
 # NBA2k
