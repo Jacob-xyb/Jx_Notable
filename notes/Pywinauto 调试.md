@@ -1,8 +1,8 @@
 ---
-tags: [Python Pywinauto]
+tags: [Python, Python Pywinauto]
 title: Pywinauto 调试
 created: '2022-08-07T05:16:47.198Z'
-modified: '2022-08-07T05:20:36.782Z'
+modified: '2022-08-12T05:34:15.177Z'
 ---
 
 # Pywinauto 调试

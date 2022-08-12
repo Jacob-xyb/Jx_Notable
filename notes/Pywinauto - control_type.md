@@ -1,8 +1,8 @@
 ---
-tags: [Python Pywinauto]
+tags: [Python, Python Pywinauto]
 title: Pywinauto - control_type
 created: '2022-08-05T10:30:19.010Z'
-modified: '2022-08-10T03:05:01.664Z'
+modified: '2022-08-12T05:45:28.027Z'
 ---
 
 # Pywinauto - control_type
@@ -25,3 +25,20 @@ ComboBox.is_enabled()		# 是否可用
 # ControlType:	UIA_CheckBoxControlTypeId (0xC352)
 CheckBox.get_toggle_state()		# 获取是否选定状态，返回 0 | 1
 ```
+
+**Table**
+
+```python
+# ControlType:	UIA_TableControlTypeId (0xC374)
+Table.item_count()		# 获取表格的行数
+Table.column_count()	# 获取表格的列数
+```
+
+**Tree**
+
+```python
+getattr(Tree.iface_grid, "CurrentRowCount")
+getattr(Tree.iface_grid, "CurrentColumnCount")
+```
+
+

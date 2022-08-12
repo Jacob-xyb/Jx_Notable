@@ -1,8 +1,8 @@
 ---
-tags: [Python Pywinauto]
+tags: [Python, Python Pywinauto]
 title: Pywinauto pywinauto.findwindows.find_elements
 created: '2022-08-05T10:29:10.978Z'
-modified: '2022-08-05T11:00:25.805Z'
+modified: '2022-08-12T05:34:15.210Z'
 ---
 
 # Pywinauto pywinauto.findwindows.find_elements
