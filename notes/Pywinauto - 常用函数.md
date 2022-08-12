@@ -2,7 +2,7 @@
 tags: [Python, Python Pywinauto]
 title: Pywinauto - 常用函数
 created: '2022-08-05T10:22:50.761Z'
-modified: '2022-08-12T02:32:58.265Z'
+modified: '2022-08-12T06:55:45.209Z'
 ---
 
 # Pywinauto - 常用函数
@@ -10,8 +10,17 @@ modified: '2022-08-12T02:32:58.265Z'
 ## 直接调用
 
 ```python
-ctrl.rectangle()        # 获取控件坐标
 #  <self.left, self.top, self.right, self.bottom>
+ctrl.legacy_properties()    # 获取私有属性的字典 .get('key') 获取值
+ctrl.rectangle()        # 获取控件坐标
+    coord = list(ctrl.rectangle().mid_point())
+ctrl.capture_as_image()     # 截图控件
+ctrl.get_properties()       # 获取属性
+ctrl.draw_outline(colour='green', thickness=2,..)   # 突显控件
+ctrl.descendants()      # 返回所有满足条件的子控件
+ctrl.children()         # 返回一层中所有满足条件的子控件
+ctrl.children_texts()
+ctrl.print_ctrl_ids(deep=None)
 ```
 
 ### 控件鼠标调用
