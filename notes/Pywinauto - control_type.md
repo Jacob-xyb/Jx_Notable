@@ -2,7 +2,7 @@
 tags: [Python, Python Pywinauto]
 title: Pywinauto - control_type
 created: '2022-08-05T10:30:19.010Z'
-modified: '2022-08-12T05:45:28.027Z'
+modified: '2022-08-16T11:26:43.711Z'
 ---
 
 # Pywinauto - control_type
@@ -41,4 +41,12 @@ getattr(Tree.iface_grid, "CurrentRowCount")
 getattr(Tree.iface_grid, "CurrentColumnCount")
 ```
 
+**Edit**
+
+```python
+# ControlType:	UIA_EditControlTypeId (0xC354)
+Edit.set_edit_text('')
+Edit.set_text('')		# .set_text() == .set_edit_text()
+Edit.get_value() -> str		# 返回 Edit 的值
+```
 
